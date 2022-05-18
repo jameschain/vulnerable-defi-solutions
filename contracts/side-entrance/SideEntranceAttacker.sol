@@ -15,7 +15,7 @@ interface ILenderPool {
     function withdraw() external;
 }
 
-contract SideEntranceLenderPoolAttacker {
+contract SideEntranceAttacker {
     address private immutable lenderPool;
 
     constructor(address pool) {
